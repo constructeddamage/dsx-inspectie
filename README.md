@@ -37,7 +37,7 @@ Ik maak scripts die duidelijk en overzichtelijk zijn. Daarom zijn dingen ook opg
 - **Server** (`server/main.lua`):  
 - Houdt bij welke speler welke taak heeft.  
 - Spawn en verwijder voertuigen.  
-- Strakke beveiliging: tokens, locatie en cooldowns.  
+- Goede beveiliging met tokens, locatie checken en cooldowns.  
 - Geeft beloning en start automatisch een nieuwe taak als de vorige voltooid is.
 
 - **Config** (`shared/config.lua`):  
