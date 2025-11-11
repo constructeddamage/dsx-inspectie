@@ -1,0 +1,2 @@
+INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES ('kwaliteitsmedewerker', 'Kwaliteitsmedewerker', 0);
+INSERT INTO `job_grades` (`id`, `job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES (9999, 'kwaliteitsmedewerker', 0, 'medewerker', 'Onderzoeker', 1500, '{}', '{}');
