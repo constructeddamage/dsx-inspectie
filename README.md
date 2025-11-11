@@ -3,7 +3,7 @@
 ## Overzicht
 Deze resource is bedoeld voor een FiveM server die ESX en OX gebruikt als framework. Het idee is dat spelers verschillende inspectietaken krijgen, zoals het repareren van een zendmast, vervangen van zekeringen, meten van de waterkwaliteit of het kalibreren van een satellietschotel. Je gaat naar de klus met je dienstvoertuig. Tijdens de uitvoeren van de taken krijg je opdrachten die je moet uitvoeren om zo uiteindelijk een kleine beloning te krijgen. Daarna krijg je een nieuwe klus.
 
-## Concept en Denkwijze
+## Concept
 Ik maak scripts die duidelijk en overzichtelijk zijn. Daarom zijn dingen ook opgedeeld in categorieen zoals variables, functions en main script.
 
 1. **Taken duidelijk maken**  
