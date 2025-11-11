@@ -3,8 +3,6 @@
 ## Overzicht
 Deze resource is bedoeld voor een FiveM server die ESX en OX gebruikt als framework. Het idee is dat spelers verschillende inspectietaken krijgen, zoals het repareren van een zendmast, vervangen van zekeringen, meten van de waterkwaliteit of het kalibreren van een satellietschotel. Je gaat naar de klus met je dienstvoertuig. Tijdens de uitvoeren van de taken krijg je opdrachten die je moet uitvoeren om zo uiteindelijk een kleine beloning te krijgen. Daarna krijg je een nieuwe klus.
 
----
-
 ## Concept en Denkwijze
 Ik maak scripts die duidelijk en overzichtelijk zijn. Daarom zijn dingen ook opgedeeld in categorieen zoals variables, functions en main script.
 
@@ -30,8 +28,6 @@ Ik maak scripts die duidelijk en overzichtelijk zijn. Daarom zijn dingen ook opg
    - Nieuwe taken toevoegen kan door simpelweg een item toe te voegen aan `Config.Tasks` en vervolgens een functie er aan te koppelen in de client.lua.  
    - Locaties, beloningen en labels zijn allemaal aanpasbaar in shared/config.lua.
 
----
-
 ## Technische uitleg
 - **Client** (`client/main.lua`):  
 - Maakt de npc's & blips.  
@@ -49,8 +45,6 @@ Ik maak scripts die duidelijk en overzichtelijk zijn. Daarom zijn dingen ook opg
 - Gemakkelijk aan te passen voor nieuwe taken of locaties.
 
 Er wordt geen verbinding gemaakt met de database omdat dit simpelweg niet nodig is. Het enigste wat er moet gebeuren is de job toevoegen in `jobs` en `job_grades`. Zie hiervoor het bijgevoegde SQL bestand. Als dat gebeurd is word de baan automatisch in het joblisting systeem van ESX gezet en dan kunnen spelers beginnen!
-
----
 
 ## Toekomstige verbeteringen
 - Meer variatie in skillchecks.  
