@@ -215,11 +215,11 @@ local function WaterTask()
 
     local quality = "onbekend"
     if ph >= 6.5 and ph <= 8 and ntu < 10 and temp >= 5 and temp <= 25 then
-        quality = "goede"
+        quality = "fantastisch"
     elseif ntu < 30 then
-        quality = "acceptabele"
+        quality = "matig"
     else
-        quality = "lage"
+        quality = "slecht"
     end
 
     lib.notify({
